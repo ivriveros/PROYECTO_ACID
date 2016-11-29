@@ -1,0 +1,25 @@
+
+
+Links para ejecución de peticiones mediante POSTMAN u programa similar
+
+Parámetros de ejemplo:
+{
+"id": 10000,
+"username": "Nombre usuario",
+"image": "C:\\Users\\ivriv\\Pictures\\test.png"
+}
+
+Agregar usuario principal
+GET : http://localhost:8080/AcidLabsUsers/rest/user/acid 
+
+Obtener todos los usuarios
+GET : http://localhost:8080/AcidLabsUsers/rest/users
+
+Obtener usuario por ID especifico
+GET : http://localhost:8080/AcidLabsUsers/rest/user/1
+
+Creación de usuario
+POST: http://localhost:8080/AcidLabsUsers/rest/user/create
+
+Eliminar usuario por ID especifico
+PUT: http://localhost:8080/AcidLabsUsers/rest/user/delete/10000
